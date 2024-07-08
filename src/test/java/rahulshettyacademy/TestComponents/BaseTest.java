@@ -49,7 +49,7 @@ public class BaseTest {
 			
 			//Creating options class to handle the operations with chrome browser
 			ChromeOptions options = new ChromeOptions();
-			
+			driver = new ChromeDriver();//added after getting error on 8th July
 			//Chromedriver will be installed with your version in the sysytem
 			WebDriverManager.chromedriver().setup();
 			options.addArguments("headless");
